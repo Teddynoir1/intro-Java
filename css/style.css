@@ -5,7 +5,6 @@
 }
 
 #card{
-    /* background-image: url('../img/java_image.jpg'); */
     background: no-repeat;
     background: cover;
     height: 80vh;
@@ -14,7 +13,6 @@
 }
 .container{
     background-color: #8198e5;
-    /* background-image: url('../img/java_image.jpg'); */
     display: flex;
     flex-direction: column;
     justify-content: center;
