@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#card{
+    /* background-image: url('../img/java_image.jpg'); */
+    background: no-repeat;
+    background: cover;
+    height: 80vh;
+    width: 100%;
+    border-radius: 35px;
+}
+.container{
+    background-color: #8198e5;
+    /* background-image: url('../img/java_image.jpg'); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+    width: 50%;
+    height: 70vh;
+    border-radius: 35px;
+    opacity: 2;
+    
+}
+
+.name{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    background-color: #004880;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.team li{
+    color: white;
+    font-size: 25px;
+}
+
+.team2 {
+    color: black !important;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.table1{
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 30px 30px black;
+    border-radius: 8px 8px 6px 6px;
+    overflow: hidden;
+    background-color: #004280;
+}
+
+.table1 thead tr{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #8198e5;
+    background-color: #032840;
+}
+
+.table1 th, .table1 td{
+    padding: 5px 8px;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    #card{
+        width: 100%;
+        height: 100vh;
+    }
+    .container{
+        width: 70%;
+        /* display: block; */
+        margin-bottom: 20px;
+        margin: auto;
+    }
+    .team2 {
+        color: black !important;
+        font-size: 7px;
+        font-weight: 700;
+    }    
+    .name{
+        font-size: 10px;
+        width: 70%;
+    }
+    .table1{
+        width: 100%;
+    }
+    .table1 thead tr{
+        font-size: 10px;
+        width: 50%;
+        text-align: left;
+    }
+
+    .table1 th, .table1 td{
+        font-size: 10px;
+        text-align: left;
+    }
+}
+ 
+@media screen and (max-width: 900px) {
+    #card{
+        width: 100%;
+    
+    }
+
+    .container{
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+    }
+}
